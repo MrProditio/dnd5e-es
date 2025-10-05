@@ -367,8 +367,8 @@
       "one": "{points} Punto Restante",
       "other": "{points} Puntos Restantes"
     },
-    "Title": "Mejora de Puntuación de Característica",
-    "TitleEpic": "Bonificación Épica",
+    "Title": "Mejora de Característica",
+    "TitleEpic": "Don Épico",
     "Warning": {
       "Type": "Sólo pueden seleccionarse características con el tipo \"rasgo\"."
     }
