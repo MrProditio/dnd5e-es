@@ -1,7 +1,7 @@
 {
-  "id": "ravanno-dnd5e-es",
-  "title": "Translation: Español [DnD5e]",
-  "description": "Traducción al español del sistema de Dungeons &amp; Dragons 5E (SRD).",
+  "id": "dnd5e-es",
+  "title": "D&D5e Español",
+  "description": "Traducción al español del sistema de Dungeons &amp; Dragons 5E y los compendios SRD.",
   "version": "5.1.3",
   "compatibility": {
     "minimum": "11.315",
@@ -16,6 +16,10 @@
     },
     {
       "name": "Cosmo Corban#4840",
+      "flags": {}
+    },
+    {
+    "name": "MrProditio",
       "flags": {}
     }
   ],
@@ -54,20 +58,6 @@
       "lang": "es",
       "name": "Español",
       "path": "lang/es.json",
-      "flags": {}
-    }
-  ],
-  "media": [
-    {
-      "type": "setup",
-      "url": "modules/ravanno-dnd5e-es/assets/setup-cover.png",
-      "loop": false,
-      "flags": {}
-    },
-    {
-      "type": "cover",
-      "url": "modules/ravanno-dnd5e-es/assets/logo.png",
-      "loop": false,
       "flags": {}
     }
   ],
