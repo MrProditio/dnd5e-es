@@ -61,7 +61,7 @@
       "flags": {}
     }
   ],
-  "url": "https://github.com/ravanno/ravanno-dnd5e-es",
-  "manifest": "https://raw.githubusercontent.com/ravanno/ravanno-dnd5e-es/main/module.json",
-  "download": "https://github.com/ravanno/ravanno-dnd5e-es/archive/refs/heads/main.zip"
+  "url": "https://github.com/MrProditio/dnd5e-es",
+  "manifest": "https://raw.githubusercontent.com/MrProditio/dnd5e-es/refs/heads/main/module.json",
+  "download": "https://github.com/MrProditio/dnd5e-es/archive/refs/heads/main.zip"
 }
