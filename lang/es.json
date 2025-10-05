@@ -2890,12 +2890,12 @@
     "WeightlessContents": "Contenidos sin Peso"
   },
   "SECTIONS": {
-    "Activities": "Activities",
-    "Advancement": "Advancement",
+    "Activities": "Actividades",
+    "Advancement": "Progreso",
     "Contents": "Contents",
-    "Description": "Description",
-    "Details": "Details",
-    "Effects": "Effects"
+    "Description": "Descripción",
+    "Details": "Detalles",
+    "Effects": "Efectos"
   }
 },
 
