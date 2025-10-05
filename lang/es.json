@@ -357,10 +357,10 @@
     },
     "Hint": "Permite al jugador aumentar los puntos de una o más características o elegir un rasgo opcional.",
     "Journal": {
-      "DescriptionEpic": "<p>Ganas un rasgo de Bonificación Épica u otro rasgo de tu elección que puedas seleccionar. Se recomienda {recommendation}.</p>",      
+      "DescriptionEpic": "<p>Obtienes una dote de don épico u otra dote de tu elección para la que cumplas las condiciones. Se recomienda {recommendation}.</p>",      
       "DescriptionLegacy": "<p>Cuando alcanzas el nivel {firstLevelOrdinal}, y después a nivel {otherLevelsOrdinal}, puedes incrementar la puntuación de una característica de tu elección en 2, o puedes incrementar las puntuaciones de dos características de tu elección en 1. Como de costumbre, no puedes subir la puntuación de una característica por encima de {maxAbilityScore} usando esta opción.</p><p>Utilizando la regla opcional de rasgos, en lugar de realizar esta acción puedes elegir escoger un rasgo nuevo en su lugar.</p>",
-      "DescriptionModern": "<p>Obtienes el rasgo de Mejora de Puntuación de Característica u otro rasgo de tu elección al que puedas optar. Ganas este rasgo de nuevo en los niveles {otherLevels} de {class}.</p>",
-      "Name": "Mejora de Puntuación de Característica"
+      "DescriptionModern": "<p>Obtienes la Dote \"Mejora de Característica\" u otra dote de tu elección para la que cumplas las condiciones. Vuelves a obtener este rasgo en los niveles {otherLevels} de {class}.</p>",
+      "Name": "Mejora de Característica"
     },
     "LockedHint": "Las puntuaciones no se pueden modificar con un rasgo seleccionado.",
     "PointsRemaining": {
