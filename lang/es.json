@@ -412,7 +412,7 @@
       "SelectSpecific": "Seleccionar {type}"
     },
     "Choose": "elegir {count}",
-    "Chosen": "Elegidos: {current} entre {max}",
+    "Chosen": "Elegidos: {current} de {max}",
     "Details": "Detalles de la Elección",
     "DropHint": "Deja caer elementos aquí para añadirlos a lista que puede ser elegida con este progreso.",
     "FIELDS": {
