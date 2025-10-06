@@ -297,9 +297,9 @@
 
 "DND5E.ACTOR": {
   "Warning": {
-    "CreateActor": "You must have 'Create New Actors' permission in order to summon directly from a compendium.",
+    "CreateActor": "Debes tener permiso para «Crear nuevos actores» para poder invocarlos directamente desde un compendio..",
     "InvalidItem": "Los {itemType} no se pueden añadir a un {actorType}.",
-    "NoActor": "Actor cannot be found with UUID '{uuid}' to summon.",
+    "NoActor": "No se encuentra el actor con UUID «{uuid}» para invocarlo.",
     "Singleton": "Sólo puede añadirse un {itemType} a {actorType}."
   }
 },
