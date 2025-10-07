@@ -3823,7 +3823,7 @@
     "ItemTypeInvalid": "No pueden añadirse objetos de tipo {type} al equipo inicial."
   },
   "Wealth": {
-    "Label": "Salud Inicial",
+    "Label": "Riqueza Inicial",
     "Hint": "Fórmula en PO que puede usarse en lugar del equipo inicial."
   }
 },
