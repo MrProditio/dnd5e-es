@@ -3,23 +3,23 @@
   "mapping": {
     "range": {
       "path": "system.range",
-      "converter": "range"
+      "converter": "safeMergeEffects"
     },
     "target": {
       "path": "system.target",
-      "converter": "target"
+      "converter": "safeMergeEffects"
     },
     "rangeActivities": {
       "path": "system.activities",
-      "converter": "rangeActivities"
+      "converter": "safeMergeEffects"
     },
     "effects": {
       "path": "effects",
-      "converter": "effects"
+      "converter": "safeMergeEffects"
     },
     "activities": {
       "path": "system.activities",
-      "converter": "activities"
+      "converter": "safeMergeEffects"
     }
   },
   "folders": {

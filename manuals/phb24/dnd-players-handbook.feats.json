@@ -3,15 +3,15 @@
   "mapping": {
     "rangeActivities": {
       "path": "system.activities",
-      "converter": "rangeActivities"
+      "converter": "safeMergeEntity"
     },
     "activities": {
       "path": "system.activities",
-      "converter": "activities"
+      "converter": "safeMergeEntity"
     },
     "effects": {
       "path": "effects",
-      "converter": "effects"
+      "converter": "safeMergeEntity"
     }
   },
   "folders": {

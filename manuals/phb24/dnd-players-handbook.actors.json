@@ -3,23 +3,23 @@
   "mapping": {
     "movement": {
       "path": "system.attributes.movement",
-      "converter": "movement"
+      "converter": "safeMergeEntity"
     },
     "token": {
       "path": "prototypeToken.sight.range",
-      "converter": "sightRange"
+      "converter": "safeMergeEntity"
     },
     "senses": {
       "path": "system.attributes.senses",
-      "converter": "senses"
+      "converter": "safeMergeEntity"
     },
     "items": {
       "path": "items",
-      "converter": "items"
+      "converter": "safeMergeEntity"
     },
     "effects": {
       "path": "effects",
-      "converter": "effects"
+      "converter": "safeMergeEntity"
     },
     "tokenName": "prototypeToken.name"
   },

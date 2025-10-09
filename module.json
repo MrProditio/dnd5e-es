@@ -2,7 +2,7 @@
   "id": "dnd5e-es",
   "title": "D&D5e Español",
   "description": "Traducción al español del sistema de Dungeons &amp; Dragons 5E y los compendios SRD.",
-  "version": "5.2.1",
+  "version": "5.3.0",
   "compatibility": {
     "minimum": "11.315",
     "verified": "13"

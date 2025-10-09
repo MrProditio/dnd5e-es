@@ -26,17 +26,18 @@ Hooks.once("init", () => {
 
   /** Actualiza un ActiveEffect existente con únicamente los campos textuales de la traducción */
   function applyEffectTextFields(targetEffect, transEff) {
-    // transEff típicamente contiene 'name' y/o 'description' según exportación Babele
-    if (transEff.name) targetEffect.label = transEff.name;
-    if (transEff.icon) targetEffect.icon = transEff.icon;
-    // Many systems store a description for the effect inside flags or a nested field;
-    // conservador: guardamos la descripción dentro de targetEffect.flags.babele.description
-    if (transEff.description) {
-      targetEffect.flags = targetEffect.flags || {};
-      targetEffect.flags.babele = targetEffect.flags.babele || {};
-      targetEffect.flags.babele.description = transEff.description;
-      // si el efecto original ya tenía flags de sistema, preservarlas sin sobrescribir
-    }
+  // transEff típicamente contiene 'name' y/o 'description' según exportación Babele
+  if (transEff.name) targetEffect.label = transEff.name;
+  if (transEff.label) targetEffect.label = transEff.label;
+  if (transEff.icon) targetEffect.icon = transEff.icon;
+  // Many systems store a description for the effect inside flags or a nested field;
+  // conservador: guardamos la descripción dentro de targetEffect.flags.babele.description
+  if (transEff.description) {
+    targetEffect.flags = targetEffect.flags || {};
+    targetEffect.flags.babele = targetEffect.flags.babele || {};
+    targetEffect.flags.babele.description = transEff.description;
+  // si el efecto original ya tenía flags de sistema, preservarlas sin sobrescribir
+  }
   }
 
   /** Merge seguro para effects

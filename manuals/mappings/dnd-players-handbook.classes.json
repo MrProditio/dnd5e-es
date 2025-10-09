@@ -1,9 +1,0 @@
-{
-  "label": "Player's Handbook Classes",
-  "mapping": {
-    "classes": {
-      "path": "manuals/phb24/dnd-players-handbook.classes.json",
-      "converter": "safeMergeEntity"
-    }
-  }
-}

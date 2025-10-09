@@ -1,30 +1,30 @@
 {
-  "label": "Character Classes",
+  "label": "Clases de Personaje",
   "mapping": {
     "": "",
     "activities": {
       "path": "system.activities",
-      "converter": "activities"
+      "converter": "safeMergeEntity"
     },
     "effects": {
       "path": "effects",
-      "converter": "effects"
+      "converter": "safeMergeEntity"
     },
     "rangeActivities": {
       "path": "system.activities",
-      "converter": "rangeActivities"
+      "converter": "safeMergeEntity"
     },
     "advancement": {
       "path": "system.advancement",
-      "converter": "advancement"
+      "converter": "safeMergeEntity"
     },
     "distanceAdvancement": {
       "path": "system.advancement",
-      "converter": "distanceAdvancement"
+      "converter": "safeMergeEntity"
     },
     "range": {
       "path": "system.range",
-      "converter": "range"
+      "converter": "safeMergeEntity"
     }
   },
   "folders": {
