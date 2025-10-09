@@ -1,4 +1,4 @@
-import { Converters } from "../babele/scripts/converters.js";
+import {Converters} from "../babele/script/converters.js";
 
 Hooks.once('init', () => {
   if (typeof Babele !== 'undefined') {
