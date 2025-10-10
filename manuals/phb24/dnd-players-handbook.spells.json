@@ -3,36 +3,36 @@
   "mapping": {
     "range": {
       "path": "system.range",
-      "converter": "safeMergeEffects"
+      "converter": "safeMergeEntity"
     },
     "target": {
       "path": "system.target",
-      "converter": "safeMergeEffects"
+      "converter": "safeMergeEntity"
     },
     "rangeActivities": {
       "path": "system.activities",
-      "converter": "safeMergeEffects"
+      "converter": "safeMergeEntity"
     },
     "effects": {
       "path": "effects",
-      "converter": "safeMergeEffects"
+      "converter": "safeMergeEntity"
     },
     "activities": {
       "path": "system.activities",
-      "converter": "safeMergeEffects"
+      "converter": "safeMergeEntity"
     }
   },
   "folders": {
     "Cantrips": "Trucos",
-    "1st Level": "1st Level",
-    "2nd Level": "2nd Level",
-    "3rd Level": "3rd Level",
-    "4th Level": "4th Level",
-    "5th Level": "5th Level",
-    "6th Level": "6th Level",
-    "7th Level": "7th Level",
-    "8th Level": "8th Level",
-    "9th Level": "9th Level",
+    "1st Level": "Nivel 1",
+    "2nd Level": "Nivel 2",
+    "3rd Level": "Nivel 3",
+    "4th Level": "Nivel 4",
+    "5th Level": "Nivel 5",
+    "6th Level": "Nivel 6",
+    "7th Level": "Nivel 7",
+    "8th Level": "Nivel 8",
+    "9th Level": "Nivel 9",
     "Supplemental Items": "Objetos Suplementarios"
   },
   "entries": {
