@@ -1,71 +1,23 @@
-# Translation: Español [DnD5e]
+# Traducción: Español [DnD5e]
+*(Fork del módulo "ravanno-dnd5e-es")*
+***Actualizando para DnD5e 5.1.9 y Foundry 13.350***
 
-Traducción al español del sistema de Dungeons & Dragons 5E (SRD).
+Traducción al español del sistema de Dungeons & Dragons 5ª Edición
 
-Actualizando para DnD5e 5.1.2 y Foundry 11.315 (Verificado 13)
+Este proyecto surge primeramente como ***aprendizaje personal***. Soy DM de uno de los muchos escenarios de campaña basados en el SRD de D&D 5ª, "El Resurgir del Dragón" de Nosolorol, y durante mucho tiempo estuve traduciendo y añadiendo contenido para mi primera campaña de rol tras la pantalla. Por aquel entonces hice lo único que sabía hacer, crear un duplicado de los compendios del SRD y modificarlos dentro de Foundry Vtt para adaptarlos al mundo de juego, dado que algunos nombres de conjuro, equipamiento, rasgos, etc, variaban.
 
-**Versión 5.1.2**
-- Actualizadas traducciones a la versión 5.1.2
+Algunos años después me dispongo a dirigir una nueva campaña en el mundo de Voldor, de "El Resurgir del Dragón, y quise probar a traducir los manuales oficiales y localizarlos al idioma de mi mesa virtual. Tras varios días de ensayo y error, conseguí algunos progresos. Fue entonces cuando un alma caritativa me pasó el Manual del Jugador traducido burdamente con alguna IA o traductor online, y desde entonces, tengo el firme objetivo de perfilar y mejorar la traducción de Ravanno, y además, agregar mi propia traducción de los tres manuales de reglas básicos de D&D 5,5: Manual del Jugador, Guía del Dungeon Máster y Manual de Mosntruos.
+
+Sobra decir que no soy programador, pero sí soy alguien con inquietudes y curiosidad, lo que unido a las cada vez más mejoradas IA's gratuitas a mi alcance, ha originado este módulo.
+<hr>
+**Versión 5.3.5**
+- Se ha empezado a revisar la traducción general, pero es un trabajo largo y llevará tiempo.
+- Se ha implementado un "conversor" personalizado para Babele que, en principio, permite que los compendios en formato *.json* fusionen mejor el contenido traducido con el contenido no traducido, impidiendo que se pierda información valiosa, como actividades, avances/progresos de nivel y/o efectos activos.
+- Se está estudiando la manera de traducir algunos campos que quedan sin traducción: el nombre de algunos avances, el nombre de algunas actividades, y el nombre de algunos efectos activos.
 - Pendiente: Actualizar compendios a versión 24
-
-**Versión 5.0.4**
-- Actualizadas traducciones a la versión 5.0.4
+ 
+**Última versión de Ravanno - V5.1.2**
 - Pendiente: Actualizar compendios a versión 24
-  
-**Versión 5.0.3**
-- Actualizadas traducciones a la versión 5.0.3
-- Pendiente: Actualizar compendios a versión 24
-  
-**Versión 5.0.2.2**
-- Actualizadas traducciones a la versión 5.0.2 [FIX]
-- Añadidas opciones de compatibilidad para Foundry 13
-- Pendiente: Actualizar compendios a versión 24
-
-**Versión 4.3.9**
-- Actualizadas traducciones a la versión 4.3.9
-  
-**Versión 4.3.8**
-- Actualizadas traducciones a la versión 4.3.8
-  
-**Versión 4.3.6**
-- Actualizadas traducciones a la versión 4.3.6
-  
-**Versión 4.3.5**
-- Actualizadas traducciones a la versión 4.3.5
-  
-**Versión 4.3.1**
-- Actualizadas traducciones a la versión 4.3.1
-
-**Versión 4.3.0**
-- Actualizadas traducciones a la versión 4.3.0
-
-**Versión 4.2.2**
-- Actualizadas traducciones a la versión 4.2.2
-
-**Versión 4.2.0**
-- Actualizadas traducciones a la versión 4.2.0.
-
-**Versión 4.1.2**
-- Actualizadas traducciones a la versión 4.1.2.
-
-**Versión 4.1.1**
-- Actualizadas traducciones a la versión 4.1.1.
-
-**Versión 4.1.0**
-- Actualizadas traducciones a la versión 4.1.0.
-  
-**Versión 4.0.2**
-- Actualizadas traducciones a la versión 4.0.2.
-
-**Versión 4.0.0**
-- Actualizadas traducciones a la versión 4.0.0.
-  
-**Versión 3.3.1.7**
-- Añadidas traducciones para los elementos de "Tablas (SRD)".
-- Correcciones menores en los textos de los elementos que componen "Reglamento (SRD)".
-
-**Versión 3.3.1.6**
-- Correcciones menores.
 
 **SRD 1.0**
 - Revisadas las referencias internas de los compendios SRD para ajustarlos a la version 3.3.1 del sistema.
@@ -76,8 +28,8 @@ Actualizando para DnD5e 5.1.2 y Foundry 11.315 (Verificado 13)
 - Revisadas las traducciones para evitar textos duplicados (especialmente en el apartado del reglamento).
 - TO-DO: Revisión completa de textos y traducciones de tablas de objetos.
 
-**Requisitos Mínimos**
-- Babele 2.5.5
+**Requisitos**
+- Babele
 
 **Agradecimientos**
-- Añadidas traducciones del SRD 1.1 en Español, gracias a Francisco González (frankygonzalez001@gmail.com).
+- Agradecer a todos aquellos que en algún momento han creado, mantenido y colaborado en las traducciones del Sistema DnD5e para Foundry Vtt.
