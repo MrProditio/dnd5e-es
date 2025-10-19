@@ -1,0 +1,870 @@
+{
+  "label": "Equipo",
+  "mapping": {
+    "weight": {
+      "path": "system.weight",
+      "converter": "safeMergeEntity"
+    },
+    "activities": {
+      "path": "system.activities",
+      "converter": "safeMergeEntity"
+    },
+    "capacityWeight": {
+      "path": "system.capacity.weight",
+      "converter": "safeMergeEntity"
+    },
+    "rangeActivities": {
+      "path": "system.activities",
+      "converter": "safeMergeEntity"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "safeMergeEntity"
+    },
+    "range": {
+      "path": "system.range",
+      "converter": "safeMergeEntity"
+    }
+  },
+    "folders": {
+        "Weapons": "Armas",
+        "Star Maps": "Mapas Estelares",
+        "Ammunition": "Munición",
+        "Simple Melee": "Armas cuerpo a cuerpo sencillas",
+        "Light": "Ligero",
+        "Other": "Otro",
+        "Armor": "Armadura",
+        "Artisan": "Artesano",
+        "Spellcasting Focuses": "Focos de Lanzamiento de Hechizos",
+        "Musical Instrument": "Instrumento Musical",
+        "Gaming Set": "Set de Juego",
+        "Medium": "Medio",
+        "Adventuring Gear": "Equipo de Aventura",
+        "Tools": "Herramientas",
+        "Heavy": "Pesado",
+        "Arcane Focus": "Foco Arcano",
+        "Simple Ranged": "Armas a distancia sencillas",
+        "Martial Melee": "Armas Cuerpo a Cuerpo Marcial",
+        "Druidic Focus": "Foco Druídico",
+        "Holy Symbol": "Símbolo Sagrado",
+        "Martial Ranged": "Armas a Distancia Marcial"
+    },
+	"entries": {
+		"Blanket": {
+			"name": "Manta",
+			"description": "<p>Mientras te envuelvas en una manta, tendrás Ventaja en las tiradas de salvación contra frío extremo (consulta la <em>Guía del Dungeon Master</em>).</p>"
+		},
+		"Water (Pint)": {
+			"name": "Agua (Pinta)",
+			"description": "<p>Si no bebes suficiente agua, corres el riesgo de &amp;Reference[dehydration].</p>"
+		},
+		"Tinderbox": {
+			"name": "Yesquero",
+			"description": "<p>Un yesquero es un pequeño recipiente que contiene un pedernal, un chispero y yescas (normalmente, tela seca untada en aceite) y se utiliza para encender un fuego. Se necesita una acción adicional para prender con él una antorcha, lámpara, linterna o vela (o cualquier otra cosa con combustible expuesto). Encender cualquier otro tipo de fuego lleva 1 minuto.</p>"
+		},
+		"Rope": {
+			"name": "Cuerda",
+			"description": "<p>Como acción de utilizar, puedes hacer un nudo con una cuerda si superas una prueba de Destreza (Juego de manos) con CD 10. Para romper la cuerda, se debe superar una prueba de Fuerza (Atletismo) con CD 20.</p><p>Puedes atar a una criatura no voluntaria con la cuerda solo si tiene el estado de &amp;Reference[Grappled], &amp;Reference[Incapacitated] o &amp;Reference[Restrained]. Si la criatura tiene las piernas atadas, tendrá el estado de apresada hasta que se libere. Para liberarse de la cuerda, deberá superar una prueba de Destreza (Acrobacias) con CD 15 como acción.</p>"
+		},
+		"Waterskin": {
+			"name": "Cantimplora",
+			"description": "<p>En una cantimplora caben hasta 4 pintas (2 l) de líquido. Si no bebes suficiente agua, te arriesgas a sufrir &amp;Reference[dehydration] (consulta el glosario de reglas).</p>"
+		},
+		"Rations": {
+			"name": "Raciones",
+			"description": "<p>Las raciones se componen de alimentos propicios para viajar, como cecina, fruta deshidratada, galletas y frutos secos. Consulta &amp;Reference[Malnutrition] en el glosario de reglas para saber los riesgos que implica no comer.</p>"
+		},
+		"Map or Scroll Case": {
+			"name": "Estuche de Mapa o Pergamino",
+			"description": "<p>Este estuche cilíndrico de cuero puede contener hasta diez hojas de papel enrolladas o cinco hojas de pergamino enrolladas.</p>"
+		},
+		"Oil": {
+			"name": "Aceite",
+			"description": "<p>Puedes empapar una criatura, objeto o espacio con Aceite o usarlo como combustible, como se detalla a continuación.</p><p><strong>Empapar una Criatura o un Objeto.</strong> Cuando realizas la acción de Ataque, puedes reemplazar uno de tus ataques con lanzar un frasco de Aceite. Elige como objetivo una criatura u objeto a 20 pies de ti. El objetivo debe tener éxito en una tirada de salvación de Destreza (CD 8 más tu modificador de Destreza y Bonificador de Competencia) o ser cubierto de aceite. Si el objetivo recibe daño de Fuego antes de que el aceite se seque (después de 1 minuto), el objetivo recibe un daño extra de [[/damage 5 type=fire]] de aceite ardiendo.</p><p><strong>Empapar un Espacio.</strong> Puedes usar la acción de Utilizar para verter un frasco de Aceite en un terreno nivelado para cubrir un área de 5 pies cuadrados a 5 pies de ti. Si se enciende, el aceite arde hasta el final del turno 2 asaltos después de que el aceite fue encendido (o 12 segundos) e inflige 5 de daño de Fuego a cualquier criatura que entre en el área o termine su turno allí. Una criatura puede recibir este daño solo una vez por turno.</p><p><strong>Combustible.</strong> El Aceite sirve como combustible para Lámparas y Linternas. Una vez encendido, un frasco de Aceite arde durante 6 horas en una Lámpara o Linterna. Esa duración no necesita ser consecutiva; puedes extinguir el Aceite ardiendo (como una acción de Utilizar) y volver a encenderlo hasta que haya ardido por un total de 6 horas.</p>",
+  "activities": {
+    "FoeoumkYcnAsGCRo": {
+      "name": "Lanzar"
+    },
+    "mDj3jtAY6ICmi1ZL": {
+      "name": "Cubrir una zona"
+    }
+  }
+		},
+		"Bedroll": {
+			"name": "Saco de Dormir",
+			"description": "<p>Un Saco de Dormir es para una criatura Pequeña o Mediana. Mientras estás en un Saco de Dormir, tienes éxito automáticamente en las tiradas de salvación contra frío extremo (consulta la <em>Guía del Dungeon Master</em>).</p>"
+		},
+		"Parchment": {
+			"name": "Pergamino",
+			"description": "<p>Una hoja de Pergamino puede contener alrededor de 250 palabras escritas a mano.</p>"
+		},
+		"Hooded Lantern": {
+			"name": "Linterna con Capucha",
+			"description": "<p>Una linterna con capucha emite luz brillante en un radio de 30 pies y luz tenue por 30 pies adicionales. Una vez encendida, arde durante 6 horas con un frasco (1 pinta) de aceite. Como una acción, puedes bajar la capucha, reduciendo la luz a luz tenue en un radio de 5 pies.</p>"
+		},
+		"Lamp": {
+			"name": "Lámpara",
+			"description": "<p>Una Lámpara quema <em>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite}</em> como combustible para emitir Luz Brillante en un radio de 15 pies (4,5 m) y Luz Tenue por 30 pies (9 m) adicionales.</p>"
+		},
+		"Bell": {
+			"name": "Campana",
+			"description": "<p>Al tañer una campana como acción de Utilizar, producirá un sonido audible a 60 pies (18 m) de distancia.</p>"
+		},
+		"Bullseye Lantern": {
+			"name": "Linterna de Ojo de Buey",
+			"description": "<p>Una linterna de ojo de buey emite luz brillante en un cono de 60 pies y luz tenue por 60 pies adicionales. Una vez encendida, arde durante 6 horas con un frasco (1 pinta) de aceite.</p>"
+		},
+		"Ball Bearings": {
+			"name": "Bolas de Metal",
+			"description": "<p>Como una acción de Utilizar, puedes verter las Bolas de Metal de su Bolsa. Se esparcirán para cubrir una zona cuadrada y plana de 10 pies cuadrados (3 m de lado) a 10 pies (3 m) o menos de ti. Las criaturas que entren en esta área por primera vez en un turno deberán superar una tirada de salvación de Destreza de CD 10 o tendrán el estado &amp;Reference[Tumbado]. Se tarda 10 minutos en recuperar las Bolas de Metal.</p><section class=\"secret\" id=\"secret-bbcC5syRGw0PCZnG\"><p><strong>Nota de Foundry</strong></p><p>La actividad de <strong>Recuperar Rodamientos de Bolas</strong> otorga otro uso de este objeto.</p></section>"
+		},
+		"Torch": {
+			"name": "Antorcha",
+			"description": "<p>Una Antorcha arde durante 1 hora, emitiendo Luz Brillante en un radio de 20 pies (6 m) y Luz Tenue 20 pies (6 m) más allá. Cuando realizas la acción de Atacar, puedes hacerlo con la Antorcha como si fuera un arma cuerpo a cuerpo sencilla. Si acierta, el objetivo sufre [[/damage 1 fire]].</p>"
+		},
+		"Crowbar": {
+			"name": "Palanca",
+			"description": "<p>Usar una Palanca te da Ventaja en las pruebas de Fuerza donde se puede aplicar el apalancamiento de la Palanca.</p>"
+		},
+		"Mirror": {
+			"name": "Espejo",
+			"description": "<p>Un Espejito de acero de mano resulta útil para arreglarse, pero también para mirar por las esquinas y reflejar la luz a modo de señal.</p>"
+		},
+		"Ink": {
+			"name": "Tinta",
+			"description": "<p>La Tinta viene en un frasco de 1 onza, que proporciona suficiente tinta para escribir unas 500 páginas.</p>"
+		},
+		"Caltrops": {
+			"name": "Abrojos",
+			"description": "<p>Como una acción de Utilizar, puedes esparcir los Abrojos de su bolsa para cubrir una zona cuadrada de 5 pies cuadrados (1,5 m de lado) a 5 pies (1,5 m) o menos de ti. Las criaturas que entren en esta zona por primera vez en un turno deberán superar una tirada de salvación de Destreza de CD 15 o sufrirán [[/damage 1 piercing]] y su velocidad se reducirá a 0 hasta el principio de su siguiente turno. Se tarda 10 minutos en recuperar los Abrojos.</p>"
+		},
+		"Robe": {
+			"name": "Túnica",
+			"description": "<p>Una Túnica tiene un significado vocacional o ceremonial. Algunos eventos y lugares admiten solo a personas que llevan una Túnica con ciertos colores o símbolos.</p>"
+		},
+		"Holy Water": {
+			"name": "Agua Bendita",
+			"description": "<p>Cuando realizas la acción de Atacar, puedes sistutiur uno de tus ataques por lanzar un frasco de Agua Bendita. Elige como objetivo a una criatura que puedas ver a 20 pies (6 m) o menos de ti. El objetivo deberá superar una tirada de salvación de Destreza (CD 8 más tu modificador de Destreza y tu Bonificador de Competencia) o sufrirá [[/damage 2d8 radiant]] si es un demonio o un muerto viviente.</p>"
+		},
+		"Costume": {
+			"name": "Disfraz",
+			"description": "<p>Mientras llevas un Disfraz, tienes Ventaja en cualquier prueba de característica que hagas para suplantar a la persona o el tipo de persona que representa.</p>"
+		},
+		"Improvised Weapon": {
+			"name": "Arma Improvisada",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixCRule.JournalEntryPage.Dyw6b9rQIdbkIIQD inline]</p>"
+		},
+		"Ebony-bound Atlas": {
+			"name": "Atlas con Encuadernación de Ébano",
+			"description": "<p>Una colección de mapas encuadernada en ébano que puede ser utilizada como Foco de Lanzamiento de Hechizos por Druidas del Círculo de la Estrella. Es un objeto Diminuto.</p>"
+		},
+		"Engraved Crystal": {
+			"name": "Cristal Grabado",
+			"description": "<p>Un cristal grabado con patrones estrellados que puede ser utilizado como Foco de Lanzamiento de Hechizos por Druidas del Círculo de la Estrella. Es un objeto Diminuto.</p>"
+		},
+		"Etched Glass Disk": {
+			"name": "Disco de Cristal Grabado",
+			"description": "<p>Un disco de cristal grabado con constelaciones que puede ser utilizado como Foco de Lanzamiento de Hechizos por Druidas del Círculo de la Estrella. Es un objeto Diminuto.</p>"
+		},
+		"Tooled Owlbear Hide": {
+			"name": "Piel de Lechuza-Oso Tallada",
+			"description": "<p>Una piel de lechuza-oso tallada con símbolos estelares que puede ser utilizada como Foco de Lanzamiento de Hechizos por Druidas del Círculo de la Estrella. Es un objeto Diminuto.</p>"
+		},
+		"Constellations Scroll": {
+			"name": "Pergamino de Constelaciones",
+			"description": "<p>Un pergamino con representaciones de constelaciones que puede ser utilizado como Foco de Lanzamiento de Hechizos por Druidas del Círculo de la Estrella. Es un objeto Diminuto.</p>"
+		},
+		"Stone Tablet": {
+			"name": "Tableta de Piedra",
+			"description": "<p>Una tableta de piedra con finos agujeros perforados que puede ser utilizada como Foco de Lanzamiento de Hechizos por Druidas del Círculo de la Estrella. Es un objeto Diminuto.</p>"
+		},
+		"Unarmed Strike": {
+			"name": "Golpe sin Armas",
+			"description": "<p><em>Ver: &amp;Reference[unarmedstrike]</em></p>"
+		},
+		"Crystal": {
+			"name": "Cristal",
+			"description": "<p>Un <em>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Foco Arcano}</em> está enjoyado o tallado para canalizar magia arcana. Un Hechicero, Brujo o Mago puede usar un objeto así como un Foco de Lanzamiento de Hechizos.</p>"
+		},
+		"Orb": {
+			"name": "Orbe",
+			"description": "<p>Un <em>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Foco Arcano}</em> está enjoyado o tallado para canalizar magia arcana. Un Hechicero, Brujo o Mago puede usar un objeto así como un Foco de Lanzamiento de Hechizos.</p>"
+		},
+		"Rod": {
+			"name": "Vara",
+			"description": "<p>Un <em>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Foco Arcano}</em> está enjoyado o tallado para canalizar magia arcana. Un Hechicero, Brujo o Mago puede usar un objeto así como un Foco de Lanzamiento de Hechizos.</p>"
+		},
+		"Staff": {
+			"name": "Báculo",
+			"description": "<p>Un <em>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Foco Arcano}</em> está enjoyado o tallado para canalizar magia arcana. Un Hechicero, Brujo o Mago puede usar un objeto así como un Foco de Lanzamiento de Hechizos.</p><p>Este objeto también funciona como un <em>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Quarterstaff}</em></p><section class=\"secret\" id=\"secret-wJ4SJVg9unbYSBJb\"><p><strong>Nota de Foundry</strong></p><p>Este objeto ha sido configurado con las propiedades adicionales de un Bastón de Cuartel.</p></section>"
+		},
+		"Wand": {
+			"name": "Varita",
+			"description": "<p>Un <em>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Foco Arcano}</em> está enjoyado o tallado para canalizar magia arcana. Un Hechicero, Brujo o Mago puede usar un objeto así como un Foco de Lanzamiento de Hechizos.</p>"
+		},
+		"Acid": {
+			"name": "Ácido",
+			"description": "<p>Cuando realizas la acción de Atacar, puedes sustituir uno de tus ataques por lanzar un vial de Ácido. Elige como objetivo una criatura u objeto que puedas ver a 20 pies (6 m) o menos de ti. El objetivo deberá superar una tirada de salvación de Destreza (CD 8 más tu modificador de Destreza y tu Bonificador de Competencia) o sufrirá [[/damage 2d6 acid]].</p>"
+		},
+		"Alchemist's Fire": {
+			"name": "Fuego de Alquimista",
+			"description": "<p>Cuando llevas a cabo la acción de Atacar, puedes sustituir uno de tus ataques por lanzar un frasco de Fuego de Alquimista. Elige como objetivo una criatura u objeto que puedas ver a 20 pies (6 m) o menos de ti. El objetivo deberá superar una tirada de salvación de Destreza (CD 8 más tu modificador de Destreza y Bonificador de Competencia) o sufrirá [[/damage 1d4 type=fire]] de daño y comenzará a arder (consulta &amp;Reference[burning] en el glosario de reglas).</p>"
+		},
+		"Ammunition (Varies)": {
+			"name": "Munición (Varios)",
+			"description": "<p>La Munición es requerida por un arma que tenga la propiedad de Munición. La descripción de un arma especifica el tipo de munición utilizada por el arma. La tabla de Munición enumera los diferentes tipos y la cantidad que obtienes cuando los compras. La tabla también enumera el objeto que se usa típicamente para almacenar cada tipo; el almacenamiento debe comprarse por separado.</p><table><caption>Munición</caption><thead><tr><td>Tipo</td><td>Cantidad</td><td>Almacenamiento</td><td>Peso</td><td>Costo</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoArrows0000]{Flechas}</td><td>20</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagQuiver00000]{Carcaj}</td><td>1 lb.</td><td>1 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBolts00000]{Virotes}</td><td>20</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaseCrossbo]{Estuche}</td><td>1½ lb.</td><td>1 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBulletsFir]{Balas, Arma de Fuego}</td><td>10</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Bolsa}</td><td>2 lb.</td><td>3 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBulletsSli]{Balas, Honda}</td><td>20</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Bolsa}</td><td>1½ lb.</td><td>4 CP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoNeedles000]{Agujas}</td><td>50</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Bolsa}</td><td>1 lb.</td><td>1 GP</td></tr></tbody></table>"
+		},
+		"Antitoxin": {
+			"name": "Antitoxina",
+			"description": "<p>Como una Acción Adicional, puedes beber un vial de Antitoxina para obtener Ventaja en las tiradas de salvación para evitar o poner fin al estado Envenenado durante 1 hora.</p>"
+		},
+		"Canalizador Arcano (Varios)": {
+			"name": "Canalizador Arcano (Varios)",
+			"description": "<p>Un canalizador arcano puede ser uno de los objetos de la tabla de Canalizadores Arcanos y está ornamentado o tallado para canalizar la magia arcana. Los Brujos, Hechiceros o Magos pueden utilizar estos objetos como canalizadores mágicos.</p><table><caption>Focos Arcanos</caption><thead><tr><td>Foco</td><td>Peso</td><td>Costo</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcStaffalsoa]{Báculo} (también un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Bastón})</td><td>4 lb.</td><td>5 po</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcCrystal000]{Cristal}</td><td>1 lb.</td><td>10 po</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcOrb0000000]{Orbe}</td><td>3 lb.</td><td>20 po</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcRod0000000]{Vara}</td><td>2 lb.</td><td>10 po</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcWand000000]{Varita}</td><td>1 lb.</td><td>10 po</td></tr></tbody></table>"
+		},
+		"Backpack": {
+			"name": "Mochila",
+			"description": "<p>Una Mochila contiene hasta 30 libras dentro de 1 pie cúbico. También puede servir como alforja.</p>"
+		},
+		"Barrel": {
+			"name": "Barril",
+			"description": "<p>En un Barril caben hasta 40 galones (160 l) de líquido o hasta 4 pies cúbicos (120 l) de mercancía seca.</p>"
+		},
+		"Basket": {
+			"name": "Cesta",
+			"description": "<p>Una Cesta soporta hasta 40 libras (20 kg) en un volumen de 2 pies cúbicos (60 l).</p>"
+		},
+		"Petate": {
+			"name": "Petate",
+			"description": "<p>En un Petate puede dormir una criatura Pequeña o Mediana. Mientras estés en un Petate, superarás automáticamente las tiradas de salvación contra el frío extremo (consulta la <em>Guía del Dungeon Master</em>).</p>"
+		},
+		"Block and Tackle": {
+			"name": "Polipasto",
+			"description": "<p>Un Polipasto te permite izar hasta cuatro veces el peso que normalmente puedes levantar.</p>"
+		},
+		"Book": {
+			"name": "Libro",
+			"description": "<p>Un Libro contiene ficción o no ficción. Si consultas un Libro de no ficción preciso sobre su tema, ganas un bonificador de +5 a las pruebas de Inteligencia (Arcano, Historia, Naturaleza o Religión) que hagas sobre ese tema.</p>"
+		},
+		"Bottle, Glass": {
+			"name": "Botella de Cristal",
+			"description": "<p>En una Botella de Cristal caben hasta 1½ pintas (0,75 l) de líquido.</p>"
+		},
+		"Bucket": {
+			"name": "Cubo",
+			"description": "<p>En un Cubo cabe hasta medio pie cúbico (15 l) de contenido.</p>"
+		},
+		"Burglar's Pack": {
+			"name": "Paquete de Ladrón",
+			"description": "<p>Un Paquete de Ladrón contiene los siguientes objetos: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Mochila}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBallBearing]{Rodamientos de Bolas}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBell0000000]{Campana}, 10 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCandle00000]{Velas}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCrowbar0000]{Palanca}, @UUID[Compendium.dnd5e.items.Item.wjHtGnd05SPdURqE]{Linterna con Capucha}, 7 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{frascos de Aceite}, 5 días de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Raciones}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Cuerda}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Yesquero}, y @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Odre de Agua}.</p>"
+		},
+		"Candle": {
+			"name": "Vela",
+			"description": "<p>Durante 1 hora, una Vela encendida emite Luz Brillante en un radio de 5 pies y Luz Tenue por 5 pies adicionales.</p>"
+		},
+		"Pergamino de Conjuro, Truco": {
+			"name": "Pergamino de Conjuro, Truco",
+			"description": "<p>Un <em>Pergamino de Conjuro </em>(Truco) o @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSpellScroll]{Pergamino de Conjuro (Nivel 1)} hbagCantripScro]{Pergamino de Conjuro (Truco)} o <em>Pergamino de Conjuro </em>(Nivel 1) es un objeto mágico que contiene las palabras de un truco o un conjuro de nivel 1, respectivamente, según determine el creador del pergamino. Si el conjuro está en la lista de conjuros de tu clase, puedes leer el pergamino y lanzar el conjuro con su tiempo de lanzamiento normal y sin necesidad de componentes materiales.</p><p>Si el conjuro requiere una tirada de salvación o una tirada de ataque, la CD de salvación del hechizo es 13 y el bonificador de ataque es +5. El pergamino se desintegra cuando se completa el lanzamiento.</p>"
+		},
+		"Case, Crossbow Bolt": {
+			"name": "Estuche, Virote de Ballesta",
+			"description": "<p>En un Estuche para Virotes de Ballesta caben hasta 20 Virotes.</p>"
+		},
+		"Case, Map or Scroll": {
+			"name": "Estuche, Mapa o Pergamino",
+			"description": "<p>En un Estuche para Mapas o Pergaminos caben hasta 10 hojas de papel o 5 hojas de pergamino.</p>"
+		},
+		"Chain": {
+			"name": "Cadena",
+			"description": "<p>Como una acción de Utilizar, puedes atar con una Cadena a una criatura no voluntaria a 5 pies (1,5 m) o menos de ti que tenga el estado &amp;Reference[Grappled], &amp;Reference[Restrained] o &amp;Reference[Incapacitated] si superas una prueba de Fuerza (Atletismo) de CD 13. Si la criatura tiene las piernas atadas, tendrrá el estado de Apresada hasta que se libere. Para liberarse de la Cadena, deberá superar una prueba de Destreza (Acrobacias) de CD 18 como una acción. Romper la Cadena requiere superar una prueba de Fuerza (Atletismo) de CD 20 como una acción.</p>"
+		},
+		"Chest": {
+			"name": "Cofre",
+			"description": "<p>En un Cofre caben hasta 12 pies cúbicos (360 l) de contenido.</p>"
+		},
+		"Útiles de Escalada": {
+			"name": "Útiles de Escalada",
+			"description": "<p>Los útiles de escalada incluyen arnés, guantes, pitones y puntas para las botas. Como acción de Utilizar, puedes emplear los útiles de escalada para anclarte; cuando lo hagas, no podrás caer más de 25 pies (7,5 m) desde el punto de anclaje ni podrás alejarte más de 25 pies (7,5 m) de ahí si no quitas la sujeción como acción adicional. </p>"
+		},
+		"Ropas de Calidad": {
+			"name": "Ropas de Calidad",
+			"description": "<p>Las Ropas de Calidad están confeccionadas con telas caras y ornamentadas con detalles elaborados por manos expertas. Algunos eventos y lugares admiten solo a personas que lleve esta indumentaria.</p>"
+		},
+		"Ropas de Viaje": {
+			"name": "Ropas de Viaje",
+			"description": "<p>Las Ropas de Viaje son prendas resistentes y diseñadas para viajar por diversos entornos.</p>"
+		},
+		"Saquito de Componentes": {
+			"name": "Saquito de Componentes",
+			"description": "<p>Un Saquito de Componentes es una bolsa hermética y llena de compartimentos que contiene todos los componentes Materiales gratuitos para tus conjuros.</p>"
+		},
+		"Palanqueta": {
+			"name": "Palanqueta",
+			"description": "<p>Una Palanca te da Ventaja en las pruebas de Fuerza en las que se pueda hacer palanca.</p>"
+		},
+		"Diplomat's Pack": {
+			"name": "Paquete de Diplomático",
+			"description": "<p>Un Paquete de Diplomático contiene los siguientes objetos: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagChest000000]{Cofre}, @UUID[Compendium.dnd5e.items.Item.FqFmdzIBUSxFKKfi]{Ropa Fina}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInk00000000]{Tinta}, 5 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInkPen00000]{Plumas de Tinta}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{Lámpara}, 2 @UUID[Compendium.dnd5e.items.Item.5mIeX824uMklU3xq]{Estuches de Mapa o Pergamino}, 4 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{frascos de Aceite}, 5 hojas de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPaper000000]{Papel}, 5 hojas de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00]{Pergamino}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPerfume0000]{Perfume}, y @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Yesquero}.</p>"
+		},
+		"Druidic Focus (Varies)": {
+			"name": "Foco Druídico (Varios)",
+			"description": "<p>Un Foco Druídico toma una de las formas en la tabla de Focos Druídicos y está tallado, atado con una cinta o pintado para canalizar magia primigenia. Un Druida o Explorador puede usar un objeto así como un Foco de Lanzamiento de Hechizos.</p><table><caption>Focos Druídicos</caption><thead><tr><td>Foco</td><td>Peso</td><td>Costo</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbdfcSprigofmis]{Rama de muérdago}</td><td>—</td><td>1 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbdfcWoodenstaf]{Bastón de madera} (también un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Bastón de Cuartel})</td><td>4 lb.</td><td>5 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbdfcYewwand000]{Varita de tejo}</td><td>1 lb.</td><td>10 GP</td></tr></tbody></table>"
+		},
+		"Paquete de Explorador de Mazmorras": {
+			"name": "Paquete de Explorador de Mazmorras",
+			"description": "<p>Un Paquete de Aventurero de Mazmorras contiene los siguientes objetos: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Mochila} (este mismo ítem), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaltrops000]{Abrojos}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCrowbar0000]{Palanca}, 2 frascos de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite}, 10 días de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Raciones}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Cuerda}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Yesquero}, 10 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]{Antorchas}, y @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Odre de Agua}.</p>"
+		},
+		"Paquete de Artista": {
+			"name": "Paquete de Artista",
+			"description": "<p>Un Paquete de Animador contiene los siguientes objetos: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Mochila} (este mismo ítem), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]{Saco de Dormir}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBell0000000]{Campana}, @UUID[Compendium.dnd5e.items.Item.UkWdyJYQTfVX2cJW]{Linterna de Ojo de Buey}, 3 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCostume0000]{Disfraces}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMirror00000]{Espejo}, 8 frascos de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite}, 9 días de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Raciones}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Yesquero}, y @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Odre de Agua}.</p>"
+		},
+		"Paquete de Explorador": {
+			"name": "Paquete de Explorador",
+			"description": "<p>Un Paquete de Explorador contiene los siguientes objetos: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Mochila} (este mismo ítem), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]{Saco de Dormir}, 2 frascos de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite}, 10 días de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Raciones}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Cuerda}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Yesquero}, 10 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]{Antorchas}, y @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Odre de Agua}.</p>"
+		},
+		"Flask": {
+			"name": "Frasco",
+			"description": "<p>En un Frasco cabe hasta 1 pinta (0,5 l) de líquido.</p>"
+		},
+		"Grappling Hook": {
+			"name": "Garfio de Escalada",
+			"description": "<p>Como una acción de Utilizar, puedes lanzar el Garfio de Escalada a una barandilla, una cornisa u otro saliente a 50 pies (15 m) o menos de ti, y el garfio se enganchará si superas una prueba de Destreza (Acrobacias) de CD 13. Si el Garfio tiene una cuerda atada, podrás escalar.</p>"
+		},
+		"Útiles de Sanador": {
+			"name": "Útiles de Sanador",
+			"description": "<p>Los útiles de sanador tienen diez usos. Como acción de Utilizar, puedes gastar uno de ellos para estabilizar a una criatura inconsciente que tenga O Puntos de Golpe sin necesidad de hacer una prueba de Sabiduría (Medicina).</p>"
+		},
+		"Holy Symbol (Varies)": {
+			"name": "Símbolo Sagrado (Varios)",
+			"description": "<p>Un Símbolo Sagrado toma una de las formas en la tabla de Símbolos Sagrados y está enjoyado o pintado para canalizar magia divina. Un Clérigo o Paladín puede usar un Símbolo Sagrado como un Foco de Lanzamiento de Hechizos.</p><p>La tabla indica si un Símbolo Sagrado necesita ser sostenido, llevado o portado en tela (como un tabardo o una bandera) o un Escudo.</p><table><caption>Símbolos Sagrados</caption><thead><tr><td>Símbolo</td><td>Peso</td><td>Costo</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbhsyAmuletworn]{Amuleto} (llevado o sostenido)</td><td>1 lb.</td><td>5 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbhsyEmblemborn]{Emblema} (portado en tela o un Escudo)</td><td>—</td><td>5 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbhsyReliquaryh]{Relicario} (sostenido)</td><td>2 lb.</td><td>5 GP</td></tr></tbody></table>"
+		},
+		"Hunting Trap": {
+			"name": "Trampa de Caza",
+			"description": "<p>Como una acción de Utilizar, puedes colocar una Trampa de Caza, que es un anillo de acero con dientes de sierra que se cierra cuando una criatura pisa una placa de presión en el centro. La trampa está fijada por una cadena pesada a un objeto inamovible, como un árbol o una estaca clavada en el suelo. Una criatura que pisa la placa debe tener éxito en una tirada de salvación de Destreza de CD 13 o recibir 1d4 de daño Perforante y tener su Velocidad reducida a 0 hasta el inicio de su próximo turno. A partir de entonces, hasta que la criatura se libere de la trampa, su movimiento está limitado por la longitud de la cadena (típicamente 3 pies). Una criatura puede usar su acción para hacer una prueba de Fuerza (Atletismo) de CD 13, liberándose a sí misma o a otra criatura a su alcance si tiene éxito. Cada prueba fallida inflige [[/damage 1 type=piercing]] de daño a la criatura atrapada.</p>"
+		},
+		"Pluma": {
+			"name": "Pluma",
+			"description": "<p>Una Pluma sirve para escribir o dibujar con Tinta.</p>"
+		},
+		"Jarro": {
+			"name": "Jarro",
+			"description": "<p>En un Jarro cabe hasta 1 galón (4 l) de líquido.</p>"
+		},
+		"Ladder": {
+			"name": "Escalera",
+			"description": "<p>Una Escalera tiene 10 pies (3 m) de altura. Debes Escalar para subir o bajar por ella.</p>"
+		},
+		"Lantern, Bullseye": {
+			"name": "Linterna, Ojo de Buey",
+			"description": "<p>Una Linterna de Ojo de Buey quema <em>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite} </em>como combustible para emitir Luz Brillante en un Cono de 60 pies (18 m) y Luz Tenue por 60 pies (18 m) adicionales.</p>"
+		},
+		"Linterna, Sorda": {
+			"name": "Linterna, Sorda",
+			"description": "<p>Una Linterna Sorda quema <em>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite}</em> como combustible para emitir luz brillante en un radio de 30 pies (9 m) y luz tenue 30 pies (9 m) más allá. Como Acción Adicional, puedes cubrir la abertura con la tapa y hacer que solo emita luz tenue en un radio de 5 pies (1,5 m), o abrirla de nuevo.</p>"
+		},
+		"Lock": {
+			"name": "Cerradura",
+			"description": "<p>Una Cerradura viene con una llave. Sin la llave, una criatura puede usar <em>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulThievesToo]{Herramientas de Ladrón}</em> para forzarla con una prueba de <em>[[/tool thief dex 15]]</em>.</p>"
+		},
+		"Magnifying Glass": {
+			"name": "Lupa",
+			"description": "<p>Una Lupa otorga Ventaja en cualquier prueba de característica hecha para tasar o inspeccionar un objeto muy detallado. Encender un fuego con una Lupa requiere una luz tan brillante como la luz del sol para enfocar, yesca para encender y unos 5 minutos para que el fuego se encienda.</p>"
+		},
+		"Manacles": {
+			"name": "Esposas",
+			"description": "<p>Como acción de Utilizar, puedes esposar a una criatura Pequeña o Mediana no voluntaria que esté a 5 pies (1,5 m) o menos de ti que tenga el estado de &amp;Reference[Grappled], &amp;Reference[Restrained] o &amp;Reference[Incapacitated] si superas una prueba de Destreza (Juego de Manos) de CD 13. Mientras estéá esposada, la criatura tendrá Desventaja en las tiradas de ataque y estará Apresada si las Esposas están sujetas a una cadena o garfio fijadso en el sitio. Para liberarse de las Esposas, deberá superar una prueba de Destreza (Juego de Manos) de CD 20 como una acción. Para romperlas, deberá superaruna prueba de Fuerza (Atletismo) de CD 25 como una acción.</p><p>Cada juego de Grilletes viene con una llave. Sin la llave, una criatura puede usar Herramientas de Ladrón para forzar la cerradura de las Esposas con una prueba de <em>[[/tool thief dex 15]]</em>.</p>"
+		},
+		"Map": {
+			"name": "Mapa",
+			"description": "<p>Si consultas un Mapa preciso, ganas un bonificador de +5 a las pruebas de Sabiduría (Supervivencia) que hagas para encontrar tu camino en el lugar representado en él.</p>"
+		},
+		"Net": {
+			"name": "Red",
+			"description": "<p>Cuando realizas la acción de Ataque, puedes reemplazar uno de tus ataques con lanzar una Red. Elige como objetivo una criatura que puedas ver a 15 pies de ti. El objetivo debe tener éxito en una tirada de salvación de Destreza (CD 8 más tu modificador de Destreza y Bonificador de Competencia) o tener la condición &amp;Reference[Restrained] hasta que escape. El objetivo tiene éxito automáticamente si es de tamaño Enorme o mayor.</p><p>Para escapar, el objetivo o una criatura a 5 pies de él debe tomar una acción para hacer una prueba de <em>[[/skill ath 10]]</em>, liberando a la criatura Restringida si tiene éxito. Destruir la Red (CA 10; 5 PG; Inmunidad a daño Contundente, Veneno y Psíquico) también libera al objetivo, terminando el efecto.</p>"
+		},
+		"Paper": {
+			"name": "Papel",
+			"description": "<p>Una hoja de Papel puede contener alrededor de 250 palabras escritas a mano.</p>"
+		},
+		"Perfume": {
+			"name": "Perfume",
+			"description": "<p>El Perfume viene en un vial de 4 onzas. Durante 1 hora después de aplicarte Perfume, tienes Ventaja en las pruebas de Carisma (Persuasión) hechas para influir en un Humanoide Indiferente a 5 pies de ti.</p>"
+		},
+		"Poison, Basic": {
+			"name": "Veneno, Básico",
+			"description": "<p>Como una Acción Adicional, puedes usar un vial de Veneno Básico para recubrir un arma o hasta tres piezas de munición. Una criatura que reciba daño Perforante o Cortante del arma o munición envenenada recibe un daño extra de 1d4 de Veneno. Una vez aplicado, el veneno conserva su potencia durante 1 minuto o hasta que su daño sea infligido, lo que ocurra primero.</p><section id=\"secret-YwO5GX35V4XweNWL\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>Esta característica incluye una tirada para el daño de Veneno.</p></section>"
+		},
+		"Vara": {
+			"name": "Vara",
+			"description": "<p>Una Vara mide 10 pies de largo. Puedes usarla para tocar algo que esté hasta a 10 pies de distancia. Si tienes que hacer una prueba de Fuerza (Atletismo) como parte de un Salto de Altura o Salto de Longitud, puedes impulsarte con la Vara, lo que te dará Ventaja en la prueba.</p>"
+		},
+		"Pot, Iron": {
+			"name": "Olla de Hierro",
+			"description": "<p>Una Olla de Hierro contiene hasta 1 galón.</p>"
+		},
+		"Potion of Healing": {
+			"name": "Poción de Curación",
+			"description": "<p>Esta poción es un objeto mágico. Como una Acción Adicional, puedes beberla o administrársela a otra criatura a 5 pies de ti. La criatura que bebe el fluido rojo mágico en este vial recupera 2d4 + 2 Puntos de Golpe.</p>"
+		},
+		"Pouch": {
+			"name": "Bolsa",
+			"description": "<p>Una Bolsa soporta hasta 6 libras (3 kg) en un volumen de un quinto de pie cúbico (6 l).</p>"
+		},
+		"Priest's Pack": {
+			"name": "Paquete de Sacerdote",
+			"description": "<p>Un Paquete de Sacerdote contiene los siguientes objetos: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Mochila}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBlanket0000]{Manta}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolyWater00]{Agua Bendita}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{Lámpara}, 7 días de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Raciones}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRobe0000000]{Túnica}, y @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Yesquero}.</p>"
+		},
+		"Quiver": {
+			"name": "Aljaba",
+			"description": "<p>En una Aljaba caben hasta 20 Flechas.</p>"
+		},
+		"Ram, Portable": {
+			"name": "Ariete, Portátil",
+			"description": "<p>Puedes usar un Ariete Portátil para derribar puertas. Al hacerlo, ganas un bonificador de +4 a la prueba de Fuerza. Si otro personaje te ayuda a usar el ariete, tendrás Ventaja en esta prueba.</p>"
+		},
+		"Sack": {
+			"name": "Saco",
+			"description": "<p>Un Saco contiene hasta 30 libras dentro de 1 pie cúbico.</p>"
+		},
+		"Scholar's Pack": {
+			"name": "Paquete de Erudito",
+			"description": "<p>Un Paquete de Erudito contiene los siguientes objetos: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Mochila}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBook0000000]{Libro}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInk00000000]{Tinta}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInkPen00000]{Pluma de Tinta}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{Lámpara}, 10 frascos de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite}, 10 hojas de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00]{Pergamino}, y @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Yesquero}.</p>"
+		},
+		"Shovel": {
+			"name": "Pala",
+			"description": "<p>Trabajando durante 1 hora, puedes usar una Pala para cavar un hoyo que tiene 5 pies por cada lado en tierra o material similar.</p>"
+		},
+		"Silbato de Supervivencia": {
+			"name": "Silbato de Supervivencia",
+			"description": "<p>Cuando se sopla como una acción de Utilizar, un Silbato de Supervivencia produce un sonido que se puede oír a 600 pies (180 m) de distancia.</p>"
+		},
+		"Pergamino de Conjuro, Nivel 1": {
+			"name": "Pergamino de Conjuro, Nivel 1",
+			"description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCantripScro]{Pergamino de Conjuro (Truco)} o <em>Pergamino de Conjuro </em>(Nivel 1) es un objeto mágico que contiene las palabras de un truco o un conjuro de nivel 1, respectivamente, según determine el creador del pergamino. Si el conjuro está en la lista de conjuros de tu clase, puedes leer el pergamino y lanzar el conjuro con su tiempo de lanzamiento normal y sin necesidad de componentes materiales.</p><p>Si el conjuro requiere una tirada de salvación o una tirada de ataque, la CD de salvación del hechizo es 13 y el bonificador de ataque es +5. El pergamino se desintegra cuando se completa el lanzamiento.</p>"
+		},
+		"Puntas, de Hierro": {
+			"name": "Puntas, de Hierro",
+			"description": "<p>Las puntas de hierro vienen en lotes de diez. Como acción de Utilizar, puedes usar un objeto romo, como un Martillo Ligero, para clavar una punta en una superficie de madera, tierra u otra materia similar. Puedes hacerlo para atrancar una puerta o para después atar una Cuerda o Cadena a la Punta.</p>"
+		},
+		"Spyglass": {
+			"name": "Catalejo",
+			"description": "<p>Los objetos vistos a través de un Catalejo se ven al doble de su tamaño real.</p>"
+		},
+		"Cordel": {
+			"name": "Cordel",
+			"description": "<p>El Cordel mide 10 pies (3 m). Puedes atar un nudo con él como acción de Utilizar.</p>"
+		},
+		"Tienda": {
+			"name": "Tienda",
+			"description": "<p>En una Tienda pueden dormir hasta dos criaturas Pequeñas o Medianas.</p>"
+		},
+		"Vial": {
+			"name": "Vial",
+			"description": "<p>Un Vial contiene hasta 4 onzas.</p>"
+		},
+		"Arrows": {
+			"name": "Flechas",
+			"description": "<p><em><strong>Almacenamiento:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagQuiver00000]{Carcaj}</em></p><p>La @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAmmunitionV]{Munición} es requerida por un arma que tiene la propiedad Munición. La descripción de un arma especifica el tipo de munición utilizada por el arma. La tabla de Munición enumera los diferentes tipos y la cantidad que obtienes cuando los compras. La tabla también enumera el objeto que se usa típicamente para almacenar cada tipo; el almacenamiento debe comprarse por separado.</p>"
+		},
+		"Bolts": {
+			"name": "Virotes",
+			"description": "<p><em><strong>Almacenamiento:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaseCrossbo]{Estuche}</em></p><p>La @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAmmunitionV]{Munición} es requerida por un arma que tiene la propiedad Munición. La descripción de un arma especifica el tipo de munición utilizada por el arma. La tabla de Munición enumera los diferentes tipos y la cantidad que obtienes cuando los compras. La tabla también enumera el objeto que se usa típicamente para almacenar cada tipo; el almacenamiento debe comprarse por separado.</p>"
+		},
+		"Bullets, Firearm": {
+			"name": "Balas, Arma de Fuego",
+			"description": "<p><em><strong>Almacenamiento:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Bolsa}</em></p><p>La @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAmmunitionV]{Munición} es requerida por un arma que tiene la propiedad Munición. La descripción de un arma especifica el tipo de munición utilizada por el arma. La tabla de Munición enumera los diferentes tipos y la cantidad que obtienes cuando los compras. La tabla también enumera el objeto que se usa típicamente para almacenar cada tipo; el almacenamiento debe comprarse por separado.</p>"
+		},
+		"Bullets, Sling": {
+			"name": "Balas, Honda",
+			"description": "<p><em><strong>Almacenamiento:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Bolsa}</em></p><p>La @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAmmunitionV]{Munición} es requerida por un arma que tiene la propiedad Munición. La descripción de un arma especifica el tipo de munición utilizada por el arma. La tabla de Munición enumera los diferentes tipos y la cantidad que obtienes cuando los compras. La tabla también enumera el objeto que se usa típicamente para almacenar cada tipo; el almacenamiento debe comprarse por separado.</p>"
+		},
+		"Needles": {
+			"name": "Agujas",
+			"description": "<p><em><strong>Almacenamiento:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Bolsa}</em></p><p>La @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAmmunitionV]{Munición} es requerida por un arma que tiene la propiedad Munición. La descripción de un arma especifica el tipo de munición utilizada por el arma. La tabla de Munición enumera los diferentes tipos y la cantidad que obtienes cuando los compras. La tabla también enumera el objeto que se usa típicamente para almacenar cada tipo; el almacenamiento debe comprarse por separado.</p>"
+		},
+		"Breastplate": {
+			"name": "Coraza",
+			"description": ""
+		},
+		"Chain Mail": {
+			"name": "Cota de Malla",
+			"description": ""
+		},
+		"Chain Shirt": {
+			"name": "Camisote de Malla",
+			"description": ""
+		},
+		"Half Plate Armor": {
+			"name": "Armadura de Placas y Malla",
+			"description": ""
+		},
+		"Hide Armor": {
+			"name": "Armadura de Pieles",
+			"description": ""
+		},
+		"Leather Armor": {
+			"name": "Armadura de Cuero",
+			"description": ""
+		},
+		"Padded Armor": {
+			"name": "Armadura Acolchada",
+			"description": ""
+		},
+		"Plate Armor": {
+			"name": "Armadura de Placas",
+			"description": ""
+		},
+		"Ring Mail": {
+			"name": "Armadura de Anillas",
+			"description": ""
+		},
+		"Scale Mail": {
+			"name": "Cota de Escamas",
+			"description": ""
+		},
+		"Shield": {
+			"name": "Escudo",
+			"description": "<p>Ganas el beneficio de Clase de Armadura de un Escudo solo si tienes entrenamiento con él.</p>"
+		},
+		"Splint Armor": {
+			"name": "Armadura Laminada",
+			"description": ""
+		},
+		"Studded Leather Armor": {
+			"name": "Armadura de Cuero Tachonado",
+			"description": ""
+		},
+		"Sprig of mistletoe": {
+			"name": "Rama de muérdago",
+			"description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDruidicFocu]{Foco Druídico} toma una de las formas en la tabla de Focos Druídicos y está tallado, atado con una cinta o pintado para canalizar magia primigenia. Un Druida o Explorador puede usar un objeto así como un Foco de Lanzamiento de Hechizos.</p>"
+		},
+		"Wooden staff": {
+			"name": "Bastón de madera",
+			"description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDruidicFocu]{Foco Druídico} toma una de las formas en la tabla de Focos Druídicos y está tallado, atado con una cinta o pintado para canalizar magia primigenia. Un Druida o Explorador puede usar un objeto así como un Foco de Lanzamiento de Hechizos.</p><p>Este objeto también funciona como un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Bastón de Cuartel}</p><section class=\"secret\" id=\"secret-XEbhgCaozZsnw6QT\"><p><strong>Nota de Foundry</strong></p><p>Este objeto ha sido configurado con las propiedades adicionales de un Bastón de Cuartel.</p></section>"
+		},
+		"Yew wand": {
+			"name": "Varita de tejo",
+			"description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDruidicFocu]{Foco Druídico} toma una de las formas en la tabla de Focos Druídicos y está tallado, atado con una cinta o pintado para canalizar magia primigenia. Un Druida o Explorador puede usar un objeto así como un Foco de Lanzamiento de Hechizos.</p>"
+		},
+		"Dice": {
+			"name": "Dados",
+			"description": "<p><strong>Característica:</strong> Sabiduría</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Discernir si alguien está haciendo trampa (CD 10), o ganar el juego (CD 20)</p>"
+		},
+		"Dragonchess": {
+			"name": "Ajeno Dragón",
+			"description": "<p><strong>Característica:</strong> Sabiduría</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Discernir si alguien está haciendo trampa (CD 10), o ganar el juego (CD 20)</p>"
+		},
+		"Playing Cards": {
+			"name": "Cartas de Juego",
+			"description": "<p><strong>Característica:</strong> Sabiduría</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Discernir si alguien está haciendo trampa (CD 10), o ganar el juego (CD 20)</p>"
+		},
+		"Three-dragon ante": {
+			"name": "Ante de Tres Dragones",
+			"description": "<p><strong>Característica:</strong> Sabiduría</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Discernir si alguien está haciendo trampa (CD 10), o ganar el juego (CD 20)</p>"
+		},
+		"Amulet": {
+			"name": "Amuleto",
+			"description": "<p><em><strong>Requisito de Uso: </strong>Llevado o sostenido</em></p><p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolySymbolV]{Símbolo Sagrado} toma una de las formas en la tabla de Símbolos Sagrados y está enjoyado o pintado para canalizar magia divina. Un Clérigo o Paladín puede usar un Símbolo Sagrado como un Foco de Lanzamiento de Hechizos.</p>"
+		},
+		"Emblem": {
+			"name": "Emblema",
+			"description": "<p><em><strong>Requisito de Uso: </strong>Portado en tela o un Escudo</em></p><p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolySymbolV]{Símbolo Sagrado} toma una de las formas en la tabla de Símbolos Sagrados y está enjoyado o pintado para canalizar magia divina. Un Clérigo o Paladín puede usar un Símbolo Sagrado como un Foco de Lanzamiento de Hechizos.</p>"
+		},
+		"Reliquary": {
+			"name": "Relicario",
+			"description": "<p><em><strong>Requisito de Uso: </strong>Sostenido</em></p><p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolySymbolV]{Símbolo Sagrado} toma una de las formas en la tabla de Símbolos Sagrados y está enjoyado o pintado para canalizar magia divina. Un Clérigo o Paladín puede usar un Símbolo Sagrado como un Foco de Lanzamiento de Hechizos.</p>"
+		},
+		"Bagpipes": {
+			"name": "Gaitas",
+			"description": "<p><strong>Característica:</strong> Carisma</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Tocar una melodía conocida (CD 10), o improvisar una canción (CD 15)</p>"
+		},
+		"Drum": {
+			"name": "Tambor",
+			"description": "<p><strong>Característica:</strong> Carisma</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Tocar una melodía conocida (CD 10), o improvisar una canción (CD 15)</p>"
+		},
+		"Dulcimer": {
+			"name": "Dulcimer",
+			"description": "<p><strong>Característica:</strong> Carisma</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Tocar una melodía conocida (CD 10), o improvisar una canción (CD 15)</p>"
+		},
+		"Flute": {
+			"name": "Flauta",
+			"description": "<p><strong>Característica:</strong> Carisma</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Tocar una melodía conocida (CD 10), o improvisar una canción (CD 15)</p>"
+		},
+		"Horn": {
+			"name": "Cuerno",
+			"description": "<p><strong>Característica:</strong> Carisma</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Tocar una melodía conocida (CD 10), o improvisar una canción (CD 15)</p>"
+		},
+		"Lute": {
+			"name": "Laúd",
+			"description": "<p><strong>Característica:</strong> Carisma</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Tocar una melodía conocida (CD 10), o improvisar una canción (CD 15)</p>"
+		},
+		"Lyre": {
+			"name": "Lira",
+			"description": "<p><strong>Característica:</strong> Carisma</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Tocar una melodía conocida (CD 10), o improvisar una canción (CD 15)</p>"
+		},
+		"Pan Flute": {
+			"name": "Flauta de Pan",
+			"description": "<p><strong>Característica:</strong> Carisma</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Tocar una melodía conocida (CD 10), o improvisar una canción (CD 15)</p>"
+		},
+		"Shawm": {
+			"name": "Chirimía",
+			"description": "<p><strong>Característica:</strong> Carisma</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Tocar una melodía conocida (CD 10), o improvisar una canción (CD 15)</p>"
+		},
+		"Viol": {
+			"name": "Viola",
+			"description": "<p><strong>Característica:</strong> Carisma</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Tocar una melodía conocida (CD 10), o improvisar una canción (CD 15)</p>"
+		},
+		"Alchemist's Supplies": {
+			"name": "Suministros de Alquimista",
+			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> Inteligencia</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Identificar una sustancia (CD 15), o encender un fuego (CD 15)</p><p class=\"phb-meta\"><strong>Fabricar:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAcid0000000]{Ácido}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAlchemistsF]{Fuego de Alquimista}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPaper000000]{Papel}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPerfume0000]{Perfume}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagComponentPo]{Saquito de Componentes}</p>"
+		},
+		"Brewer's Supplies": {
+			"name": "Suministros de Cervecero",
+			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> Inteligencia</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Detectar bebida envenenada (CD 15), o identificar alcohol (CD 10)</p><p class=\"phb-meta\"><strong>Fabricar:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAntitoxin00]{Antitoxina}</p>"
+		},
+		"Calligrapher's Supplies": {
+			"name": "Suministros de Calígrafo",
+			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> Destreza</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Escribir texto con impresionantes filigranas que protegen contra la falsificación (CD 15)</p><p class=\"phb-meta\"><strong>Fabricar:</strong> <em>Pergamino de Conjuro, </em>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInk00000000]{Tinta}</p>"
+		},
+		"Carpenter's Tools": {
+			"name": "Herramientas de Carpintero",
+			"description": "<p class=\"phb-meta\"><strong>Habilidad:</strong> Fuerza</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Sellar o abrir una puerta o contenedor (CD 20)</p><p class=\"phb-meta\"><strong>Crear:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepClub000000]{Garrote}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGreatclub0]{Gran Garrote}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Bastón de Cuartel}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBarrel00000]{Barril}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagChest000000]{Cofre}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLadder00000]{Escalera}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPole0000000]{Pértiga}, @UUID[Compendium.dnd5e.items.Item.srTRzwTfWKO5opOo]{Ariete Portátil}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]{Antorcha}</p>"
+		},
+		"Cartographer's Tools": {
+			"name": "Herramientas de Cartógrafo",
+			"description": "<p class=\"phb-meta\"><strong>Habilidad:</strong> Sabiduría</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Dibujar un mapa de un área pequeña (CD 15)</p><p class=\"phb-meta\"><strong>Crear:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMap00000000]{Mapa}</p>"
+		},
+		"Cobbler's Tools": {
+			"name": "Herramientas de Zapatero",
+			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> Destreza</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Modificar calzado para dar Ventaja en la próxima prueba de Destreza (Acrobacias) del usuario (CD 10)</p><p class=\"phb-meta\"><strong>Fabricar:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClimbersKit]{Útiles de Escalada}</p>"
+		},
+		"Útiles de Cocinero": {
+			"name": "Útiles de Cocinero",
+			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> Sabiduría</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Mejorar el sabor de la comida (CD 10), o detectar comida en mal estado o envenenada (CD 15)</p><p class=\"phb-meta\"><strong>Fabricar:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Raciones}</p>"
+		},
+		"Útiles para Disfrazarse": {
+			"name": "Útiles para Disfrazarse",
+			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> Carisma</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Aplicar maquillaje (CD 10)</p><p class=\"phb-meta\"><strong>Fabricar:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCostume0000]{Disfraz}</p>"
+		},
+		"Útiles para Falsificar": {
+			"name": "Útiles para Falsificar",
+			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> Destreza</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Imitar 10 o menos palabras de la escritura de otra persona (CD 15), o duplicar un sello de cera (CD 20)</p>"
+		},
+		"Glassblower's Tools": {
+			"name": "Herramientas de Soplador de Vidrio",
+			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> Inteligencia</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Discernir lo que un objeto de vidrio contuvo en las últimas 24 horas (CD 15)</p><p class=\"phb-meta\"><strong>Fabricar:</strong> @UUID[Compendium.dnd5e.items.Item.HZp69hhyNZUUCipF]{Botella de Cristal}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSpyglass100]{Catalejo}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMagnifyingG]{Lupa}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagVial0000000]{Vial}</p>"
+		},
+		"Útiles de Herborista": {
+			"name": "Útiles de Herborista",
+			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> Inteligencia</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Identificar una planta (CD 10)</p><p class=\"phb-meta\"><strong>Fabricar:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAntitoxin00]{Antitoxina}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPotionofHea]{Poción de Curación}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHealersKit0]{Útiles de Sanador}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCandle00000]{Vela}</p>"
+		},
+		"Jeweler's Tools": {
+			"name": "Herramientas de Joyero",
+			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> Inteligencia</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Discernir el valor de una gema (CD 15)</p><p class=\"phb-meta\"><strong>Fabricar:</strong> Canalizador Arcano, Símbolo Sagrado</p>"
+		},
+		"Herramientas de Curtidor": {
+			"name": "Herramientas de Curtidor",
+			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> Destreza</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Añadir un diseño a un objeto de cuero (CD 10)</p><p class=\"phb-meta\"><strong>Fabricar:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepSling00000]{Honda}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepWhip000000]{Látigo}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmLeatherArm]{Armadura de Cuero}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmStuddedLea]{Armadura de Cuero Tachonado}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmHideArmor0]{Armadura de Pieles}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagQuiver00000]{Aljaba}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Bolsa}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Cantimplora}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaseMaporSc]{Estuche para Mapas o Pergaminos}, @UUID[Compendium.dnd5e.items.Item.eJtPBiZtr2pp6ynt]{Estuche para Virotes de Ballesta}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Mochila}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00]{Pergamino}</p>"
+		},
+		"Mason's Tools": {
+			"name": "Herramientas de Albañil",
+			"description": "<p class=\"phb-meta\"><strong>Habilidad:</strong> Fuerza</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Cincelar un símbolo o agujero en piedra (CD 10)</p><p class=\"phb-meta\"><strong>Crear:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBlockandTac]{Polipasto}</p>"
+		},
+		"Navigator's Tools": {
+			"name": "Herramientas de Navegante",
+			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> Sabiduría</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Trazar un rumbo (CD 10), o determinar la posición observando las estrellas (CD 15)</p>"
+		},
+		"Painter's Supplies": {
+			"name": "Suministros de Pintor",
+			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> Sabiduría</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Pintar una imagen reconocible de algo que has visto (CD 10)</p><p class=\"phb-meta\"><strong>Fabricar:</strong> Canalizador Druídico, Símbolo Sagrado</p>"
+		},
+		"Útiles de Envenenador": {
+			"name": "Útiles de Envenenador",
+			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> Inteligencia</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Detectar un objeto envenenado (CD 10)</p><p class=\"phb-meta\"><strong>Fabricar:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPoisonBasic]{Veneno Básico}</p>"
+		},
+		"Potter's Tools": {
+			"name": "Herramientas de Alfarero",
+			"description": "<p class=\"phb-meta\"><strong>Habilidad:</strong> Inteligencia <strong>Peso:</strong> 3 lb.</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Discernir lo que un objeto de cerámica contuvo en las últimas 24 horas (CD 15)</p><p class=\"phb-meta\"><strong>Crear:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagJug00000000]{Jarra}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{Lámpara}</p>"
+		},
+		"Smith's Tools": {
+			"name": "Herramientas de Herrero",
+			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> Fuerza</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Forzar una puerta o contenedor (CD 20)</p><p class=\"phb-meta\"><strong>Fabricar:</strong> Cualquier arma cuerpo a cuerpo (salvo Bastón, Garrote, Garrote Grande y Látigo), Armaduras medias (salvo de Pieles), Armaduras Pesadas, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaltrops000]{Abrojos}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBulletsFir]{Balas de Arma de Fuego}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBallBearing]{Bolas de Metal}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagChain000000]{Cadena}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBucket00000]{Cubo}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagGrapplingHo]{Garfio de Escalada}, @UUID[Compendium.dnd5e.items.Item.M8xM8BLK4tpUayEE]{Olla de Hierro}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCrowbar0000]{Palanqueta}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBulletsSli]{Proyectiles de Honda}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSpikesIron0]{Puntas de Hierro}</p>"
+		},
+		"Thieves' Tools": {
+			"name": "Herramientas de Ladrón",
+			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> Destreza</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Abrir una cerradura (CD 15), o desactivar una trampa (CD 15)</p>"
+		},
+		"Tinker's Tools": {
+			"name": "Herramientas de Manitas",
+			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> Destreza</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Ensamblar un objeto Diminuto de chatarra, que se desintegra en 1 minuto (CD 20)</p><p class=\"phb-meta\"><strong>Fabricar:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepMusket0000]{Mosquete}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepPistol0000]{Pistola}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBell0000000]{Campana}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLock0000000]{Cerradura}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMirror00000]{Espejo}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagManacles000]{Esposas}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagFlask000000]{Frasco}, @UUID[Compendium.dnd5e.items.Item.UkWdyJYQTfVX2cJW]{Linterna de Ojo de Buey}, @UUID[Compendium.dnd5e.items.Item.wjHtGnd05SPdURqE]{Linterna Sorda}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagShovel00000]{Pala}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSignalWhist]{Silbato de Supervivencia}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHuntingTrap]{Trampa para Cazar}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Yesquero}</p>"
+		},
+		"Weaver's Tools": {
+			"name": "Herramientas de Tejedor",
+			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> Destreza</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Remendar un desgarro en la ropa (CD 10), o coser un diseño Diminuto (CD 10)</p><p class=\"phb-meta\"><strong>Fabricar:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmPaddedArmo]{Armadura Acolchada}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBasket00000]{Cesta}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagString00000]{Cordel}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Cuerda}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBlanket0000]{Manta}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]{Petate}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagNet00000000]{Red}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesFine]{Ropas de Calidad}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesTrav]{Ropas de Viaje}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSack0000000]{Saco}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTent0000000]{Tienda de Campaña}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRobe0000000]{Túnica}</p>"
+		},
+		"Herramientas de Ebanista": {
+			"name": "Herramientas de Ebanista",
+			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> Destreza</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Tallar un patrón en madera (CD 10)</p><p class=\"phb-meta\"><strong>Fabricar:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Bastón}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepClub000000]{Garrote}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGreatclub0]{Garrote Grande}, Armas a distancia (salvo Honda, Mosquete y Pistola), Canalizador Arcano, Canalizador Druídico, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoNeedles000]{Dardos}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoArrows0000]{Flechas}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInkPen00000]{Pluma}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBolts00000]{Virotes}</p>"
+		},
+		"Hacha de Guerra": {
+			"name": "Hacha de Guerra",
+			"description": ""
+		},
+		"Blowgun": {
+			"name": "Cerbatana",
+			"description": ""
+		},
+		"Club": {
+			"name": "Garrote",
+			"description": ""
+		},
+		"Dagger": {
+			"name": "Daga",
+			"description": ""
+		},
+		"Dart": {
+			"name": "Dardo",
+			"description": ""
+		},
+		"Flail": {
+			"name": "Mangual",
+			"description": ""
+		},
+		"Guja": {
+			"name": "Guja",
+			"description": ""
+		},
+		"Hacha a dos Manos": {
+			"name": "Hacha a dos Manos",
+			"description": ""
+		},
+		"Garrote Grande": {
+			"name": "Garrote Grande",
+			"description": ""
+		},
+		"Espadón": {
+			"name": "Espadón",
+			"description": ""
+		},
+		"Halberd": {
+			"name": "Alabarda",
+			"description": ""
+		},
+		"Hand Crossbow": {
+			"name": "Ballesta de Mano",
+			"description": ""
+		},
+		"Handaxe": {
+			"name": "Hacha de Mano",
+			"description": ""
+		},
+		"Heavy Crossbow": {
+			"name": "Ballesta Pesada",
+			"description": ""
+		},
+		"Javelin": {
+			"name": "Jabalina",
+			"description": ""
+		},
+		"Lanza de Caballería": {
+			"name": "Lanza de Caballería",
+			"description": ""
+		},
+		"Light Crossbow": {
+			"name": "Ballesta Ligera",
+			"description": ""
+		},
+		"Light Hammer": {
+			"name": "Martillo Ligero",
+			"description": ""
+		},
+		"Longbow": {
+			"name": "Arco Largo",
+			"description": ""
+		},
+		"Longsword": {
+			"name": "Espada Larga",
+			"description": ""
+		},
+		"Mace": {
+			"name": "Maza",
+			"description": ""
+		},
+		"Maza a dos Manos": {
+			"name": "Maza a dos Manos",
+			"description": ""
+		},
+		"Morningstar": {
+			"name": "Lucero del Alba",
+			"description": ""
+		},
+		"Musket": {
+			"name": "Mosquete",
+			"description": ""
+		},
+		"Pike": {
+			"name": "Pica",
+			"description": ""
+		},
+		"Pistol": {
+			"name": "Pistola",
+			"description": ""
+		},
+		"Quarterstaff": {
+			"name": "Bastón",
+			"description": ""
+		},
+		"Estoque": {
+			"name": "Estoque",
+			"description": ""
+		},
+		"Scimitar": {
+			"name": "Cimitarra",
+			"description": ""
+		},
+		"Shortbow": {
+			"name": "Arco Corto",
+			"description": ""
+		},
+		"Shortsword": {
+			"name": "Espada Corta",
+			"description": ""
+		},
+		"Sickle": {
+			"name": "Hoz",
+			"description": ""
+		},
+		"Sling": {
+			"name": "Honda",
+			"description": ""
+		},
+		"Spear": {
+			"name": "Lanza",
+			"description": ""
+		},
+		"Trident": {
+			"name": "Tridente",
+			"description": ""
+		},
+		"War Pick": {
+			"name": "Pico de Guerra",
+			"description": ""
+		},
+		"Warhammer": {
+			"name": "Martillo de Guerra",
+			"description": ""
+		},
+		"Whip": {
+			"name": "Látigo",
+			"description": ""
+		},
+		"Fine Clothes": {
+			"name": "Ropas Finas",
+			"description": "<p>Conjunto de ropas diseñadas específicamente para ser caras y demostrarlo.</p>"
+		},
+		"Ink Pen": {
+			"name": "Pluma de Tinta",
+			"description": "<p>Usando Tinta, una Pluma de Tinta se usa para escribir o dibujar.</p>"
+		}
+	}
+}

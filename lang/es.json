@@ -863,7 +863,7 @@
     "Weapon": "Arma"
   },
   "Formatted": {
-    "2014": "Atacque {type} {classification}",
+    "2014": "Ataque {type} {classification}",
     "2024": "Tirada de Ataque {type}"
   },
   "Mode": {
@@ -5006,7 +5006,7 @@
   "CheckShort": "{check}",
   "CheckLong": "prueba de {check}",
   "CheckUsing": "{check} utilizando {tool}",
-  "DamageExtended": "<em>Impacto:</em> {damage} de daño",
+  "DamageExtended": "<em>Impacto:</em> de daño {damage}",
   "DamageDouble": "{first} más {second}",
   "DamageShort": "{formula} {type}",
   "DamageLong": "{average} ({formula}) {type}",
