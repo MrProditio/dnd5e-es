@@ -2,7 +2,7 @@
   "id": "dnd5e-es",
   "title": "D&D5e Español",
   "description": "Traducción al español del sistema de Dungeons &amp; Dragons 5E y los compendios SRD.",
-  "version": "5.3.7",
+  "version": "5.4.0",
   "compatibility": {
     "minimum": "11.315",
     "verified": "13"
@@ -10,8 +10,6 @@
   "authors": [
     {
       "name": "Juan J. Fernández",
-      "email": "neoravenous@gmail.com",
-      "discord": "ravanno#1489",
       "flags": {}
     },
     {
@@ -24,8 +22,7 @@
     }
   ],
   "esmodules": [
-    "babele-register.js",
-    "scripts/converter.js"
+    "babele-register.js"
   ],
   "styles": [
     "css/dnd5e-es.css"
