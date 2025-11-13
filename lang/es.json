@@ -414,10 +414,10 @@
     "Choose": "elegir {count}",
     "Chosen": "Elegidos: {current} de {max}",
     "Details": "Detalles de la Elección",
-    "DropHint": "Deja caer elementos aquí para añadirlos a lista que puede ser elegida con este progreso.",
+    "DropHint": "Arrastra aquí para añadir elementos a lista de selección para esta progresión.",
     "FIELDS": {
       "allowDrops": {
-        "hint": "Permitir a los jugadores añadir sus propias elecciones en este progreso.",
+        "hint": "Permitir a los jugadores añadir sus propias elecciones en esta progresión.",
         "label": "Permitir Añadir"
       },
       "choices": {
@@ -468,29 +468,29 @@
       "InvalidType": "Sólo los elementos {type} pueden ser seleccionados para esta opción.",
       "MaxSelected": "No se pueden seleccionar más elementos, desmarca otros elementos antes de seleccionar más.",
       "NoOriginal": "La opción anteriormente seleccionada no se puede reemplazar.",
-      "SpellLevelAvailable": "Sólo se pueden elegir conjuros de nivel {level} o inferior para este progreso.",
-      "SpellLevelSpecific": "Sólo se pueden elegir conjuros de nivel {level} para este progreso.",
-      "SpellList": "Sólo los conjuros de las listas de conjuro {lists} se pueden seleccionar para este progreso."
+      "SpellLevelAvailable": "Sólo se pueden elegir conjuros de nivel {level} o inferior para esta progresión.",
+      "SpellLevelSpecific": "Sólo se pueden elegir conjuros de nivel {level} para esta progresión.",
+      "SpellList": "Sólo los conjuros de las listas de conjuro {lists} se pueden seleccionar para esta progresión."
     }
   },
   "ItemGrant": {
     "Details": "Detalles de Concesión de Elementos",
-    "DropHint": "Deja caer aquí elementos para añadirlo a la lista de concesiones asigandas a este progreso.",
+    "DropHint": "Arrastra aquí para añadir a la lista de esta progresión.",
     "FIELDS": {
       "items": {
         "label": "Elementos"
       },
       "optional": {
         "label": "Opcional",
-        "hint": "Si todo el progreso está marcado como opcional, los jugadores puede elegir entre cualquiera de los siguientes elementos, de lo contrario, se conceden todos los elementos nos opcionales."
+        "hint": "Si toda la progresión está marcada como opcional, los jugadores puede elegir entre cualquiera de los siguientes elementos, de lo contrario, se conceden todos los elementos nos opcionales."
       }
     },
     "Hint": "Conceder al personaje elementos (tales como equipo, rasgos o conjuros) cuando llegan a cierto nivel.",
     "Title": "Conceder Elementos",
     "Warning": {
       "Container": "Los contenidos del contenedor no se añadirán con el contenedor.",
-      "Duplicate": "Ese elemento ya existe en este progreso.",
-      "Recursive": "No puedes conceder un objeto en su propio progreso."
+      "Duplicate": "Ese elemento ya existe en esta progresión.",
+      "Recursive": "No puedes conceder un objeto en su propia progresión."
     }
   },
   "Manager": {
@@ -503,18 +503,18 @@
     "ClosePrompt": {
       "Action": {
         "Continue": "Continuar",
-        "Stop": "Detener Progreso"
+        "Stop": "Detener Progresión"
       },
       "Message": "<p>Si se cancela el proceso de progresión, las elecciones realizadas hasta el momento se perderán y no se harán cambios al actor.</p>",
-      "Title": "Detener Progreso"
+      "Title": "Detener Progresión"
     },
     "RestartPrompt": {
       "Message": "¿Seguro que quieres deshacer todas la elecciones realizadas hasta ahora?",
-      "Title": "Reiniciar Opciones de Progreso"
+      "Title": "Reiniciar Opciones de Progresión"
     },
     "Steps": "Paso {current} de {total}",
     "Title": {
-      "Default": "Progreso",
+      "Default": "Progresión",
       "LevelIncreased": "Subir de Nivel al Personaje",
       "LevelNewClass": "Añadir Clase",
       "ModifyChoices": "Modificar Opciones"
@@ -717,13 +717,13 @@
 "DND5E.AdvancementConfigurationModeEnabled": "Configuración Activada",
 "DND5E.AdvancementConfigureTitle": "Configurar Progresión {item}",
 "DND5E.AdvancementConfigureAllowDrops": "Permitir Dejar Caer Elementos",
-"DND5E.AdvancementConfigureAllowDropsHint": "¿Deberían los jugadores poder dejar sus propias elecciones en este progreso?",
+"DND5E.AdvancementConfigureAllowDropsHint": "¿Deberían los jugadores poder dejar sus propias elecciones en esta progresión?",
 "DND5E.AdvancementConfigureDropAreaHint": "Dejar caer Objetos aquí para añadirlos al conjunto del que un jugador puede elegir.",
 "DND5E.AdvancementConfiguredComplete": "Totalmente Configurado",
 "DND5E.AdvancementConfiguredIncomplete": "No Configurado",
 "DND5E.AdvancementCustomIcon": "Icono Personalizado",
 "DND5E.AdvancementCustomTitle": "Título Personalizado",
-"DND5E.AdvancementDeleteConfirmationLabel": "Eliminar cambios al progreso",
+"DND5E.AdvancementDeleteConfirmationLabel": "Eliminar cambios en la progresión",
 "DND5E.AdvancementDeleteConfirmationMessage": "Al eliminar este objeto también se eliminarán todas las decisiones de progreso tomadas para ella. Estos cambios se eliminarán de tu personaje siempre y cuando la casilla de verificación de abajo esté marcada.",
 "DND5E.AdvancementDeleteConfirmationTitle": "Confirmar Eliminación",
 "DND5E.AdvancementFlowDropAreaHint": "Deja un Objeto aquí para elegirlo.",
@@ -2891,7 +2891,7 @@
   },
   "SECTIONS": {
     "Activities": "Actividades",
-    "Advancement": "Progreso",
+    "Advancement": "Progresión",
     "Contents": "Contents",
     "Description": "Descripción",
     "Details": "Detalles",
