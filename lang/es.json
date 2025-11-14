@@ -898,8 +898,8 @@
 "DND5E.Automatic": "Automático",
 "DND5E.AutomaticValue": "Automático ({value})",
 "DND5E.Award": {
-    "Title": "Distribuir Premio",
-    "Action": "Premio",
+    "Title": "Distribuir Recompensa",
+    "Action": "Recompensa",
     "Distribution": {
       "Split": "Repartir",
       "Each": "Cada"
