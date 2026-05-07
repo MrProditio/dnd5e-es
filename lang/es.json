@@ -4394,8 +4394,8 @@
       }
     },
     "tempHP": {
-      "label": "Temp HP",
-      "hint": "Grant the summoned creature temp HP, replacing any existing temp HP."
+      "label": "Pg Temp",
+      "hint": "Otorga a la criatura invocada puntos de vida temporales, sustituyendo los puntos de vida temporales que ya tenga."
     }
   },
   "Action": {
@@ -5189,15 +5189,15 @@
     "Label": "Unidades de Volumen",
     "CubicFoot": {
       "Label": "Pies Cúbicos",
-      "Abbreviation": "ft³",
+      "Abbreviation": "p³",
       "Counted": {
         "narrow": {
-          "one": "{number}ft³",
-          "other": "{number}ft³"
+          "one": "{number}p³",
+          "other": "{number}p³"
         },
         "short": {
-          "one": "{number} cu ft",
-          "other": "{number} cu ft"
+          "one": "{number} p.cúb.",
+          "other": "{number} p.cúb."
         },
         "long": {
           "one": "{number} pie cúbico",
