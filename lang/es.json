@@ -4696,13 +4696,13 @@
       }
     },
     "WillingCreature": {
-      "Label": "Criatura Consciente",
+      "Label": "Criatura Voluntaria",
       "Counted": {
-        "any": "cualquier criatura consciente",
-        "each": "cada criatura consciente",
-        "every": "todas las criaturas conscientes",
-        "one": "{number} criatura consciente",
-        "other": "{number} criaturas conscientes"
+        "any": "cualquier criatura voluntaria",
+        "each": "cada criatura voluntaria",
+        "every": "todas las criaturas voluntarias",
+        "one": "{number} criaturas voluntaria",
+        "other": "{number} criaturas voluntarias"
       }
     }
   },
